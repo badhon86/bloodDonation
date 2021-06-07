@@ -259,7 +259,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   padding: 10px 0;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(100, 144, 247, 0.25);
   transition: 0.3s;
 }
 
@@ -276,14 +276,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu .drop-down ul a {
   padding: 3px 15px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   text-transform: none;
   color: #062b5b;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #106eea;
+  background: #1074f7;
+  color: #fff;
 }
 
 .nav-menu .drop-down > a:after {
