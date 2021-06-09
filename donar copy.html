@@ -957,17 +957,14 @@
        
     
 
-
-
   <head>
-    <meta charset="utf-8">
-    <title>Animated Search Box | CodingNepal</title>
-    <link rel="stylesheet" href="styles.css">
+   
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   </head>
   <body>
     <div class="search-box">
-      <input type="text" placeholder="Type to search..">
+      <input type="text" placeholder="সার্চ করতে টাইপ করুন . . .">
       <div class="search-icon">
         <i class="fas fa-search"></i>
       </div>
@@ -992,7 +989,7 @@
         if(searchInput.value != ""){
           var values = searchInput.value;
           searchData.classList.remove("active");
-          searchData.innerHTML = "You just typed " + "<span style='font-weight: 500;'>" + values + "</span>";
+          searchData.innerHTML = "আপনি টাইপ করলেন " + "<span style='font-weight: 500;'>" + values + "</span>";
         }else{
           searchData.textContent = "";
         }
