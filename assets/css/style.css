@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a span {
-  color: rgba(0, 121, 68);
+  color: rgb(224, 28, 28);
 }
 
 #header .logo img {
@@ -476,8 +476,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 span {
-  color: rgba(0, 121, 68);
+  color: rgb(224, 28, 28);
 }
+
+
 
 #hero h2 {
   color: #555555;
@@ -599,7 +601,7 @@ section {
 }
 
 .section-title h3 span {
-  color: rgba(0, 121, 68);
+  color: rgb(224, 28, 28);
 }
 
 .section-title p {
@@ -1705,7 +1707,8 @@ section {
 }
 
 #footer .footer-top .footer-contact h3 span {
-  color: rgba(0, 121, 68);
+  color:rgb(224, 28, 28);
+ 
 }
 
 #footer .footer-top .footer-contact p {
